@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "es2020",
+        "outDir": "dist",
+        "strict": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true
+    },
+    "include": [ "src/**/*" ],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
